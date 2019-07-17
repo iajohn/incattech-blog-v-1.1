@@ -1,0 +1,250 @@
+  .img-cont {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+  .single-post.post-body {
+    border: 1px solid #5556;
+}
+
+.single-post.post-body:hover {
+    /*box-shadow: 0px 0px 4px 0px #fd0054;*/
+    box-shadow: 0px 5px 15px rgba(86, 86, 86, 0.46);
+    border: 1px solid #222;
+}
+
+  .single-post .a-avt{
+    padding-top: 8px;
+  padding-bottom: 8px;
+  }
+
+  .single-post .a-avt a h5:hover{
+    color: #fd0054 !important;
+  }
+
+.featured-author {
+  display: block;
+}
+.featured-author .featured-author-cover {
+  width: 100%;
+  height: 250px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.featured-author .featured-author-cover .badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.featured-author .featured-author-cover .badges .badge-item {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #191E21;
+  letter-spacing: 1px;
+}
+.featured-author .featured-author-cover .featured-author-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.featured-author .featured-author-cover .featured-author-picture {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
+.featured-author .featured-author-cover .featured-author-picture img {
+  width: 100%;
+}
+.featured-author .featured-author-cover .featured-author-info .name {
+  font-size: 18px;
+  color: #999;
+  margin: 0;
+  margin-top: 10px;
+}
+.featured-author .featured-author-cover .featured-author-info .desc {
+  font-size: 12px;
+  margin-top: 3px;
+  color: #ddd;
+}
+.featured-author .featured-author-body {
+  /*box-shadow: 0 0 3px #ddd;*/
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  background-color: #252525;
+  line-height: 20px;
+}
+.featured-author .featured-author-body .featured-author-count {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #2e2e2e;
+  margin-bottom: 20px;
+}
+.featured-author .featured-author-body .featured-author-count .item:first-child {
+  border: none;
+}
+.featured-author .featured-author-body .featured-author-count .item {
+  float: left;
+  width: calc(100% / 3);
+  width: -webkit-calc(100% / 3);
+  width: -moz-calc(100% / 3);
+  width: -o-calc(100% / 3);
+  text-align: center;
+  padding: 0;
+  border: none;
+  transition: all 0.5s;
+}
+.featured-author .featured-author-body .featured-author-count .item a:hover {
+  text-decoration: none;
+}
+.featured-author .featured-author-body .featured-author-count .item a:hover .name {
+  color: #C8081C;
+}
+.featured-author .featured-author-body .featured-author-count .item:last-child {
+  border-right: none;
+}
+.featured-author .featured-author-body .featured-author-count .item .name {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #F73F52;
+  font-weight: 500;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.featured-author .featured-author-body .featured-author-count .item .value {
+  font-size: 18px;
+  font-weight: 800;
+  color: #666;
+}
+.featured-author .featured-author-body .featured-author-count .item .icon {
+  padding-top: 13px;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 12px;
+}
+.featured-author .featured-author-body .featured-author-count .item .icon div {
+  float: left;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.featured-author .featured-author-body .featured-author-count .item .icon i {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+.featured-author .featured-author-body .featured-author-quote {
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-style: oblique;
+  color: #999;
+  text-align: left;
+}
+.featured-author .featured-author-body .featured-author-footer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.featured-author .featured-author-body .featured-author-footer a {
+  display: block;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 12px;
+  /*border-top: 1px solid #999;*/
+}
+
+.featured-author .featured-author-body .featured-author-footer .bio-content a {
+  display: inline-block;
+  padding: 0px;
+  letter-spacing: 0px;
+}
+.featured-author .featured-author-body .block {
+  display: inline-block;
+  padding: 15px;
+}
+.featured-author .featured-author-body .block .block-title {
+  font-size: 14px;
+  position: relative;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}
+.featured-author .featured-author-body .block .block-title .all {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #383838;
+  top: 5px;
+}
+.featured-author .featured-author-body .block .block-title .all i {
+  color: #F73F52;
+  margin-left: 5px;
+}
+.featured-author .featured-author-body .block .block-body {
+  margin-top: 10px;
+}
+
+.item-list-round {
+  padding: 0;
+  margin: 0;
+}
+.item-list-round li {
+  float: left;
+  display: block;
+}
+.item-list-round li.hidden {
+  display: none;
+}
+.item-list-round li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.item-list-round li a:hover {
+  opacity: .7;
+}
+.item-list-round li a .more {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 64px;
+  font-size: 18px;
+  font-weight: 600;
+}

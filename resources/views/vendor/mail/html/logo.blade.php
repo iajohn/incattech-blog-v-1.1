@@ -1,0 +1,1 @@
+<img class="navbar-brand" href="{{ route('home') }}" src="{{ asset('assets/frontend/themes/img/incattech/logo.png') }}" alt="{{config('app.name')}}">
